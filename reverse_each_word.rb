@@ -1,8 +1,9 @@
-def reverse_each_word(sentence1)
+def reverse_each_word(word)
   sentence1 = "Hello there, and how are you?"
-  array = "Hello there, and how are you?".split
-  array.each do |words|
-   word.reverse
+  first_array = sentence1.split
+  second_array = []
+  first_array.each do |word|
+   second_array << word.reverse
 end
-
+second_array.join(" ")
 end  
